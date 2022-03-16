@@ -1,9 +1,11 @@
 import React from "react";
+import Board from "./component/Board";
 
 function App() {
   return (
     <div className="App">
-      <h1>TIC TAC TOE</h1>
+      <h1 className="header">TIC TAC TOE</h1>
+      <Board/>
     </div>
   );
 }

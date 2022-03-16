@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: bisque;
+  background-color: rgba(205, 221, 245, 0.651);
   font-family:Georgia, 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,18 +19,40 @@ code {
   justify-content: center;
 }
 .btn{
+  border: 2px solid;
   height:120px;
   width: 120px;
   font-size: 50px;
+  font-weight: 800;
+  border-radius: 5px;
+  margin: 4px;
+  box-shadow: 5px 5px 2px rgb(140, 140, 158);
+}
+.restart{
+  height: 40px;
+  width: 70px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgb(97, 216, 176);
+  box-shadow: 5px 5px 2px rgb(60, 60, 61);
 }
 .App{
   width: 80%;
   margin: auto;
 }
 .header{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: rgb(129, 16, 8);
   text-align: center;
   font-size: 40px;
-  text-shadow: 2px 2px 4px #bbb;
+  text-shadow: 2px 2px 4px rgb(70, 41, 41);
+}
+.status{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(95, 7, 7, 0.904);
+  font-size: 30px;
+  text-shadow: 2px 2px 5px rgb(94, 42, 26);
 }
 .hide{
   display: none;
